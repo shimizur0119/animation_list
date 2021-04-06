@@ -1,0 +1,22 @@
+@keyframes fadeSlide {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.animation-text-2 {
+  padding: 10px;
+  overflow: hidden;
+  color: black;
+}
+
+.item__inner.act {
+  .animation-text-2 {
+    animation: fadeSlide 2s;
+  }
+}

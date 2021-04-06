@@ -1,0 +1,58 @@
+//mixin
+@import "../mixin/break.scss";
+@import "../mixin/font.scss";
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Hachi+Maru+Pop&family=New+Tegomin&family=Noto+Sans+JP:wght@400;700&family=Reggae+One&family=RocknRoll+One&family=Stick&family=Train+One&family=Yusei+Magic&display=swap");
+
+//compponent
+@import "../components/header/header.scss";
+@import "../components/container/container.scss";
+@import "../components/item/item.scss";
+
+//animation
+@import "../components/animation/text/animation-text-1.scss";
+@import "../components/animation/text/animation-text-2.scss";
+@import "../components/animation/text/animation-text-3.scss";
+
+* {
+  line-height: 160%;
+  caret-color: transparent;
+}
+
+body {
+  background-color: white;
+  color: #a4a098;
+  @include font_NotoSansJP;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  @include pc {
+    font-size: 16px;
+  }
+  @include sp {
+    font-size: 14px;
+  }
+}
+
+header {
+  @include font_RocknRollOne;
+  height: 80px;
+  background-color: #a4a098;
+  color: white;
+}
+
+main {
+  min-height: calc(100vh - (80px + 300px));
+  @include pc {
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+footer {
+  min-height: 300px;
+  background-color: #a4a098;
+  color: white;
+}

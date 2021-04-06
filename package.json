@@ -8,9 +8,13 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "destyle.css": "^2.0.2",
     "next": "latest",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-intersection-observer": "^8.31.0",
+    "sass": "^1.32.8"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
