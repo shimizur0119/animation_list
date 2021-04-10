@@ -1,0 +1,114 @@
+@keyframes animationText5_border1 {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes animationText5_border2 {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 0;
+  }
+  50% {
+    height: 100%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes animationText5_border3 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  75% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes animationText5_border4 {
+  0% {
+    height: 0;
+  }
+  75% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes animationText5_bg {
+  0% {
+    background-color: transparent;
+    color: transparent;
+  }
+  75% {
+    background-color: transparent;
+    color: transparent;
+  }
+  100% {
+    background-color: black;
+    color: white;
+  }
+}
+
+.animation-text-5 {
+  position: relative;
+  padding: 20px;
+  animation: animationText5_bg 3s infinite;
+  &__border1,
+  &__border2,
+  &__border3,
+  &__border4 {
+    position: absolute;
+    background-color: black;
+  }
+  &__border1,
+  &__border3 {
+    width: 100%;
+    height: 5px;
+  }
+  &__border2,
+  &__border4 {
+    width: 5px;
+    height: 100%;
+  }
+  &__border1 {
+    animation: animationText5_border1 3s infinite;
+    top: 0;
+    left: 0;
+  }
+  &__border2 {
+    animation: animationText5_border2 3s infinite;
+    top: 0;
+    right: 0;
+  }
+  &__border3 {
+    animation: animationText5_border3 3s infinite;
+    bottom: 0;
+    right: 0;
+  }
+  &__border4 {
+    animation: animationText5_border4 3s infinite;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+// .item__inner.act {
+//   .animation-text-4 {
+//     animation: scaleRollText 2s;
+//   }
+// }

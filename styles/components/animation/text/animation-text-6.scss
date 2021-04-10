@@ -1,0 +1,39 @@
+@keyframes animationText6_width {
+  0% {
+    width: 0;
+  }
+  70% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes animationText6_line {
+  0% {
+    border-color: rgba(51, 47, 47, 0.75);
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.animation-text-6 {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__inner {
+    border-right: 2px solid rgba(51, 47, 47, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 4s animationText6_width steps(40) infinite,
+      0.5s animationText6_line steps(40) infinite;
+  }
+}
+
+// .item__inner.act {
+//   .animation-text-4 {
+//     animation: scaleRollText 2s;
+//   }
+// }

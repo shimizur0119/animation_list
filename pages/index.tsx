@@ -21,71 +21,34 @@ const IndexPage = () => (
             撃っていいのは<br />撃たれる覚悟のあるやつだけだ
           </div>
         </Item>
-        <div className="item">
-          <div className="item__content">
-            <div className="item__title">よこにシュッってなるやつ</div>
-            <div className="item__inner">
-              <div className="anime-text-1">
-                <div className="anime-text-1__inner">
-                  Done is better than perfect.
-                </div>
-              </div>
+        <Item title="ゆるーく集合">
+          <div className="animation-text-4">
+            キミの敗因はメモリの無駄遣い
+          </div>
+        </Item>
+        <Item title="ぐるっと１周">
+          <div className="animation-text-5">
+            <div className="animation-text-5__border1"></div>
+            <div className="animation-text-5__border2"></div>
+            <div className="animation-text-5__border3"></div>
+            <div className="animation-text-5__border4"></div>
+            力以外の序列はつまらんな
+          </div>
+        </Item>
+        <Item title="真ん中からタイプライター">
+          <div className="animation-text-6">
+            <div className="animation-text-6__inner">
+              他人に借りを作るべからず
             </div>
           </div>
-          <div className="item__img"></div>
-        </div>
-        <div className="item">
-          <div className="item__content">
-            <div className="item__title">よこにシュッってなるやつ</div>
-            <div className="item__inner">
-              <div className="anime-text-1">
-                <div className="anime-text-1__inner">
-                  Done is better than perfect.
-              </div>
-              </div>
+        </Item>
+        <Item title="ぴょこっとウェーブ">
+          <div className="animation-text-7">
+            <div className="animation-text-7__inner">
+              次回「城之内、死す」
             </div>
           </div>
-          <div className="item__img"></div>
-        </div>
-        <div className="item">
-          <div className="item__content">
-            <div className="item__title">よこにシュッってなるやつ</div>
-            <div className="item__inner">
-              <div className="anime-text-1">
-                <div className="anime-text-1__inner">
-                  Done is better than perfect.
-              </div>
-              </div>
-            </div>
-          </div>
-          <div className="item__img"></div>
-        </div>
-        <div className="item">
-          <div className="item__content">
-            <div className="item__title">よこにシュッってなるやつ</div>
-            <div className="item__inner">
-              <div className="anime-text-1">
-                <div className="anime-text-1__inner">
-                  Done is better than perfect.
-              </div>
-              </div>
-            </div>
-          </div>
-          <div className="item__img"></div>
-        </div>
-        <div className="item">
-          <div className="item__content">
-            <div className="item__title">よこにシュッってなるやつ</div>
-            <div className="item__inner">
-              <div className="anime-text-1">
-                <div className="anime-text-1__inner">
-                  Done is better than perfect.
-              </div>
-              </div>
-            </div>
-          </div>
-          <div className="item__img"></div>
-        </div>
+        </Item>
       </div>
 
     </div>

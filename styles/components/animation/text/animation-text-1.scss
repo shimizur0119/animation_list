@@ -32,6 +32,6 @@
 .item__inner.act {
   .animation-text-1::before {
     // background: green;
-    animation: slide 2s;
+    animation: slide 2s infinite;
   }
 }
